@@ -32,7 +32,8 @@
 	for (x = 0; x < 30; x ++){
 		lollipop(random(0,width), random(0,height), random (0, 200), color(255, 0, 0));
 }
-	function lollipop(x, y, size, colour){
+	
+ function lollipop(x, y, size, colour){
 	fill (255)
 	rect (x, y - size, 10, size);
 	fill(colour)
